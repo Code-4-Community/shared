@@ -1,5 +1,5 @@
-import React from 'react'
-import type { ButtonHTMLAttributes } from 'react'
+import React from 'react';
+import type { ButtonHTMLAttributes } from 'react';
 
 export function Button({
   children,
@@ -9,5 +9,5 @@ export function Button({
     <button type="button" {...props}>
       {children}
     </button>
-  )
+  );
 }

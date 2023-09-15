@@ -1,16 +1,16 @@
-import React from 'react'
-import type { ButtonHTMLAttributes } from 'react'
+import React from 'react';
+import type { ButtonHTMLAttributes } from 'react';
 
-import type { Meta, Story } from '@storybook/react'
+import type { Meta, Story } from '@storybook/react';
 
-import { Button as ButtonComponent } from './Button'
+import { Button as ButtonComponent } from './Button';
 
 export default {
   title: 'Button',
-} as Meta<ButtonHTMLAttributes<HTMLButtonElement>>
+} as Meta<ButtonHTMLAttributes<HTMLButtonElement>>;
 
 const Template: Story<ButtonHTMLAttributes<HTMLButtonElement>> = (args) => (
   <ButtonComponent {...args}>Changed button</ButtonComponent>
-)
+);
 
-export const Button = Template.bind({})
+export const Button = Template.bind({});
